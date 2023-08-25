@@ -4,15 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Validador UFC</title>
 </head>
 
 <body>
-    <h2>Qual o seu peso em kg?</h2>
-    <input type="number" id="pesoInput">
-    <button onclick="Calcular()">Calcular</button>
-    <h3 id="resultado"></h3>
-    <script src="./scripts/script.js"></script>
+    <div id="title">
+        <h1>Verifique qual seria sua categoria no UFC utilizando o seu peso(kg).</h1>
+        <button id="start"  onclick="startDiv()">INICIAR</button>
+    </div>
+    <div id="container">
+        <p onclick="delDiv()">X</p>
+        <h2>Qual o seu peso em kg?</h2>
+        <input value="0" type="number" id="pesoInput">
+        <button onclick="Calcular()">Calcular</button>
+        <h3 id="resultado"></h3>
+        <script src="./scripts/script.js"></script>
+    </div>
 </body>
 
 </html>
