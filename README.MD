@@ -1,4 +1,4 @@
-# Este programa coleta um número do peso em kg retorna modalidade do UFC baseada no "peso".
+# Este programa coleta um número de "peso" em kg retorna modalidade do UFC baseada no "peso".
 
 ### Tecnologias utilizadas:
 - HTML
